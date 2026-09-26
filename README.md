@@ -147,11 +147,17 @@ Reconnaissance → Vulnerability Identification → Exploitation → Privilege V
 The main lessons I took from the project were:
 
 Identifying the exact software version running on a service is important during security assessments.
+
 Vulnerable services can provide an entry point into a system.
+
 Publicly available vulnerability research can help identify potential attack paths.
+
 Exploitation should always be performed within an authorized environment.
+
 Verifying access is important when demonstrating the impact of a vulnerability.
+
 A penetration test should not stop after gaining access; the findings should lead to practical remediation recommendations.
+
 Tools Used
 Kali Linux
 Nmap
@@ -160,17 +166,7 @@ Python 3.13
 FTP
 Metasploitable 2
 VirtualBox
-Project Structure
-vsftpd-2.3.4-penetration-test/
-│
-├── README.md
-│
-└── screenshots/
-    ├── 01-nmap-scan.png
-    ├── 02-ftp-login.png
-    ├── 03-searchsploit.png
-    ├── 04-exploitation-success.png
-    └── README.md
+
 Disclaimer
 
 This project was performed exclusively in an authorized, isolated cybersecurity laboratory using Metasploitable 2, an intentionally vulnerable virtual machine.
